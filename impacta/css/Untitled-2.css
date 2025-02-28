@@ -1,0 +1,185 @@
+@charset "utf-8";
+/* CSS Document */
+ .cabecera{
+		  background-color: #e2001a;
+		  color: #F9F5F6;
+		  text-align: center;
+		  padding: 10px;
+	  }
+	  .responsive {
+		  width: 100%;
+		  height: auto;
+	  }
+	  .copy{
+		  background-color: #F9F5F6;
+		  color: #e2001a;
+		  text-align: center;
+		  padding: 10px;
+		  font-size: 10px;
+	  }
+	  .noticias{
+		  background-color: #F9F5F6;
+		  color: #e2001a;
+		  text-align: center;
+		  padding: 10px;
+		  font-size: 12px;
+	  }
+	  .footer{
+		  background-color: #001c3a;
+	  }
+	  .contenedor{
+	overflow:hidden;
+	z-index:1;
+	background-color:#001c3a;
+		  margin-bottom: -15px;
+	  }
+	  
+	  .column_1 {
+  padding: 40px 40px 0px 40px;
+  float: left;
+  width: 18%;
+		  position: relative;
+}
+
+.column_2 {
+  padding: 40px 40px 0px 40px;
+  float: left;
+  width: 18%; 
+	position: relative;
+}
+
+.column_3 {
+  padding: 40px;
+  float: left;
+  width: 15%; 
+	position: relative;
+}
+	  .column_4 {
+  padding: 40px;
+  float: left;
+  width: 15%; 
+	position: relative;
+}
+	  .column_5 {
+  padding: 0px 40px 40px 40px;
+  float: left;
+  width: 18%; 
+	position: relative;
+		  vertical-align: text-top;
+}
+	  .column_6 {
+  padding: 0px 40px 40px 40px;
+  float: left;
+  width: 18%; 
+		  position: relative;
+}
+	  .column_7 {
+  padding: 40px 40px 40px 40px;
+  float: left;
+  width: 25%; 
+	position: relative;
+		  vertical-align: text-top;
+}
+	  @media screen and (max-width: 800px) {
+  .column_1, .column_2, .column_3, .column_4, .column_5 {
+    width: 100%; 
+  }	
+}
+	  @media screen and (max-width: 800px) {
+  .imagen {
+    width: 100%; 
+  }	
+}
+	  @media screen and (max-width: 800px) {
+  .pagos {
+    width: 70%; 
+  }	
+}
+	  .texto_footer {
+  color: #fff;
+		  font-size: 12px;
+}
+	  .titulo_footer {
+  color: #e2001a;
+		  font-size: 14px;
+}
+	  .contenedor_formulario{
+	overflow:hidden;
+	z-index:1;
+	background-color:#e2001a;
+		  margin-bottom: -15px;
+	  }
+	  .column_form {
+  padding: 70px;
+  float: left;
+  width: 40%; 
+	position: relative;
+		  vertical-align: text-top;
+}
+	  .area_formulario{
+	overflow:hidden;
+	z-index:1;
+	background-color:#e2001a;
+	  }
+	  .titulo_formulario {
+  color: #fff;
+		  font-size: 16px;
+}
+	  
+	  .campos{
+		  border: solid 0px;
+		  border-radius: 8px;
+	  }
+	  .campos_texto{
+		  height: 30px;
+		  width: 46.5%;
+		  margin: 2px 2px 7px 2px;
+	  }
+	  ::placeholder {
+  color: #e2001a;
+  opacity: 1; 
+		  font-weight: bold;
+		  padding: 10px;
+}
+	  input[type="radio"] {
+            appearance: none;
+            width: 30px;
+            height: 30px;
+            border: 1px solid #fff;
+            border-radius: 50%;
+            outline: none;
+            background-color: transparent;
+            cursor: pointer;
+        }
+	  input[type="radio"]:checked {
+            background-color: #001c3a;
+        }
+	  input[type="checkbox"] {
+            appearance: none;
+            width: 30px;
+            height: 30px;
+            border: 1px solid #fff;
+            border-radius: 30%;
+            outline: none;
+            background-color: #fff;
+            cursor: pointer;
+        }
+	  input[type="checkbox"]:checked {
+            background-color: #001c3a;
+        }
+	  .span_radio{
+		      border: 1px solid #fff;
+    color: #fff;
+    padding: 5px;
+    border-radius: 5px;
+}
+	  .btn_enviar{
+		  background-color: yellow;
+		  border-radius: 25px;
+		  border: 0px yellow;
+		  text-align: center;
+		  color: #e2001a;
+		  width: 200px;
+		  padding-bottom: 10px;
+		  padding-top: 10px;
+	  }
