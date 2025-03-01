@@ -1,0 +1,466 @@
+html,
+body {
+  position: relative;
+  height: 100%;
+}
+
+@font-face {
+    font-family: 'Outfit';
+    src: url('../fonts/Outfit/static/Outfit-Regular.ttf');
+}
+
+body {
+  background: #fff;
+  font-family: 'Outfit';
+  font-size: 14px;
+  color: #000;
+  margin: 0;
+  padding: 0;
+}
+
+.colorRed{
+	filter:invert(50%) sepia(83%) saturate(5980%) hue-rotate(347deg) brightness(85%) contrast(111%);
+}
+
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.swiper {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.cabecera{
+	background-color: #e2001a;
+	color: #F9F5F6;
+	text-align: center;
+	padding: 10px;
+}
+
+.copy{
+	background-color: #F9F5F6;
+	color: #e2001a;
+	text-align: center;
+	padding: 10px;
+	font-size: 10px;
+}
+
+.grid-layout{
+	display: grid;
+	grid-template-columns: auto auto;
+	width: 70%;
+	margin: 0 auto;
+	padding: 20px;
+	padding-bottom: 80px;
+}
+
+.caja{
+	width: 450px;
+	height: 250px;
+	margin: 20px;
+	text-align: center;
+	line-height: 250px;
+	border-radius: 5px;
+}
+
+.caja_texto{
+	width: 450px;
+	height: auto;
+	margin: 20px;
+	text-align: left;
+	border-radius: 5px;
+	vertical-align: text-top;
+	color: #001c3a;
+	padding-bottom: 50px;
+}
+
+.titulo{
+	color: #001c3a;
+	font-size: 35px;
+	font-weight: bold;
+	padding-bottom: 20px;
+}
+
+.contenido{
+	color: #001c3a;
+	font-size: 14px;
+	padding-top: 20px;
+}
+
+.c1{
+	background-image: url("../img/Fotos_iconos/digital-brain-with-neon-lights-representing-fusion-neuroscience-advanced-technology.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.c2{
+	background-image: url("../img/Fotos_iconos/3d-rendering-dartboard-red-blurry-motion-capturing-dynamic-action-competitive-setting.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.c5{
+	background-image: url("../img/Fotos_iconos/isolated-beautiful-cyber-woman-against-abstract-background.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.c6{
+	background-image: url("../img/Fotos_iconos/powerful-partnership-handshake-symbolizing-collaboration-trust-success-highlighted-with.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.content {
+	margin: 0px auto;
+	text-align: center;
+}
+ 
+.content img {
+	vertical-align: middle;
+}
+
+.white{
+	filter: brightness(0) invert(1);
+}
+
+.grid-layout-eslogan{
+	display: grid;
+	grid-template-columns: auto;
+	width: 100%;
+}
+
+.caja-eslogan{
+	width: 100%;
+	height: 400px;
+	background-color: #001c3a;
+	text-align: center;
+	line-height: 490px;
+}
+
+.eslogan{
+	color: #fff;
+	font-size: 40px;
+	font-weight: bold;
+	letter-spacing: 5px;
+}
+
+.img-cajas:hover{
+	filter: opacity(.5);
+}
+
+.caja-tope-partner{
+	width: 100%;
+	height: 200px;
+	background: rgb(240,186,186);
+	background: -webkit-linear-gradient(rgba(240,186,186,1) 0%, rgba(226,0,26,1) 97%);
+	background: -o-linear-gradient(rgba(240,186,186,1) 0%, rgba(226,0,26,1) 97%);
+	background: linear-gradient(rgba(240,186,186,1) 0%, rgba(226,0,26,1) 97%);
+}
+
+.caja-partner{
+	width: 100%;
+	height: 50px;
+	background-color: #e2001a;
+	text-align: center;
+	padding-top: 100px;
+}
+
+.titulo-partner{
+	color: #fff;
+	font-size: 25px;
+	font-weight: bold;
+	text-align: center;
+}
+
+.sobreposition{
+    width: 500px;
+    height: 650px;
+    margin: -100px;
+	text-align: center;
+}
+
+.contenedor-humo{
+	position: relative;
+	text-align: center;
+	color: white;
+}
+
+.centered{
+  	position: absolute;
+    top: 50%;
+    transform: translate(15%, 0%);
+    font-size: 47px;
+    letter-spacing: 5px;
+    line-height: 450px;
+}
+
+.grid-iconos{
+	display: grid;
+	grid-template-columns: auto auto auto auto auto auto auto;
+	width: 100%;
+	background-color: #e2001a;
+	padding-bottom: 30px;
+}
+
+.caja-iconos{
+	width: 180px;
+    height: 200px;
+    border-radius: 5px;
+	background-color: #E32120;
+	margin: 0px auto;
+	text-align: center;
+	line-height: 210px;
+}
+
+.grid-iconos-next{
+	display: grid;
+	grid-template-columns: auto auto auto auto auto auto auto;
+	grid-template-rows: auto;
+	width: 100%;
+	background-color: #e2001a;
+	padding-bottom: 40px;
+	margin: 0px auto;
+	border-bottom: 2px solid #ffffff;
+}
+
+.c1-icono{
+	grid-column: 1 / 2;
+	width: 380px;
+	height: 200px;
+	border-radius: 5px;
+	background-color: #E32120;
+	text-align: center;
+	line-height: 210px;
+	margin: 0px auto;
+}
+
+.c2-icono{
+	grid-column: 3 / 4;
+	width: 380px;
+	height: 200px;
+	border-radius: 5px;
+	background-color: #E32120;
+	text-align: center;
+	line-height: 210px;
+	margin: 0px auto;
+}
+
+.contenedor_formulario{
+	overflow:hidden;
+	z-index:1;
+	background-color:#e2001a;
+	margin-bottom: -15px;
+	padding-left: 80px;
+}
+
+.column_form {
+	padding: 50px;
+	float: left;
+	width: 40%; 
+	position: relative;
+	vertical-align: text-top;
+}
+
+.campos{
+	border: solid 0px;
+	border-radius: 8px;
+}
+
+.campos_texto{
+	height: 30px;
+	width: 46.5%;
+	margin: 2px 2px 7px 2px;
+}
+
+::placeholder {
+	color: #e2001a;
+	opacity: 1; 
+	font-weight: bold;
+	padding: 10px;
+}
+
+input[type="radio"] {
+	appearance: none;
+	width: 30px;
+	height: 30px;
+	border: 1px solid #fff;
+	border-radius: 50%;
+	outline: none;
+	background-color: transparent;
+	cursor: pointer;
+}
+
+input[type="radio"]:checked {
+	background-color: #001c3a;
+}
+
+input[type="checkbox"] {
+	appearance: none;
+	width: 30px;
+	height: 30px;
+	border: 1px solid #fff;
+	border-radius: 30%;
+	outline: none;
+	background-color: #fff;
+	cursor: pointer;
+}
+
+input[type="checkbox"]:checked {
+	background-color: #001c3a;
+}
+
+.span_radio{
+	border: 1px solid #fff;
+	color: #fff;
+	padding: 5px;
+	border-radius: 5px;
+}
+
+.btn_enviar{
+	background-color: #ffcf1f;
+	border-radius: 25px;
+	border: 0px #ffcf1f;
+	text-align: center;
+	color: #e2001a;
+	width: 200px;
+	padding-bottom: 7px;
+	padding-top: 7px;
+	font-size: 11px;
+    font-weight: bold;
+	cursor: pointer;
+}
+
+.texto-privacidad{
+	color: #ffffff;
+	font-size: 12px;
+}
+
+.contenedor{
+	overflow:hidden;
+	z-index:1;
+	background-color:#001c3a;
+	margin-bottom: -15px;
+}
+
+.titulo-privacidad{
+	color: #fff;
+	font-size: 20px;
+}
+
+.titulo-encuesta{
+	color: #fff;
+	font-size: 16px;
+	padding-top: 30px;
+}
+
+.noticias{
+	background-color: #F9F5F6;
+	color: #e2001a;
+	text-align: center;
+	padding: 10px;
+	font-size: 12px;
+}
+
+.marco-label{
+	display: table-caption;
+	color: #ffffff;
+	border: 1px solid #ffffff;
+	border-radius: 5px;
+	width: 350px;
+	padding: 5px 0px 5px 0px;
+	tab-size: 20px;
+	margin-left: 20px;
+}
+
+.marco-label:first-letter{
+	margin-left: 25px;
+}
+
+.separador{
+	padding-bottom: 10px;
+}
+
+.contenedor-footer{
+	overflow:hidden;
+	z-index:1;
+	background-color:#001c3a;
+	margin-bottom: -15px;
+}
+
+.column_1 {
+	padding: 40px 40px 0px 40px;
+	float: left;
+	width: 18%;
+	position: relative;
+}
+
+.column_2 {
+	padding: 40px 40px 0px 40px;
+	float: left;
+	width: 18%; 
+	position: relative;
+}
+
+.column_3 {
+	padding: 40px;
+	float: left;
+	width: 15%; 
+	position: relative;
+}
+.column_4 {
+	padding: 40px;
+	float: left;
+	width: 15%; 
+	position: relative;
+}
+.column_5 {
+	padding: 0px 40px 40px 40px;
+	float: left;
+	width: 18%; 
+	position: relative;
+	vertical-align: text-top;
+}
+.column_6 {
+	padding: 0px 40px 40px 40px;
+	float: left;
+	width: 18%; 
+	position: relative;
+}
+.column_7 {
+	padding: 40px 40px 40px 40px;
+	float: left;
+	width: 25%; 
+	position: relative;
+	vertical-align: text-top;
+}
+
+.texto_footer {
+	color: #fff;
+	font-size: 10px;
+}
+
+.titulo_footer {
+	color: #e2001a;
+	font-size: 14px;
+}
+
+
