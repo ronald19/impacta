@@ -10,6 +10,14 @@
 		<!-- styles -->
 		<link rel="stylesheet" href="css/estilos.css" type="text/css"/>
 		<link rel="stylesheet" href="css/responsive.css" type="text/css"/>
+		<!--sweetalert-->
+		<script src="js/sweetalert.min.js"></script>
+		
+		<script>
+			function mensaje(){
+				swal("", "Gracias por escribirnos!!!", "success");				
+			}
+		</script>
 	</head>
 
 	<body>
@@ -53,12 +61,12 @@
 	<!-- 4 cajas -->	
 		<div class="grid-layout">
 			<div class="caja c1">
-				<div class="content">
+				<div class="content img-cajas">
 					<img src="img/Fotos_iconos/salud-mental.svg" width="170px" height="170px" alt="salud mental" class="white"/>
 				</div>
 			</div>
 			<div class="caja c2">
-				<div class="content">
+				<div class="content img-cajas">
 					<img src="img/Fotos_iconos/esperma.svg" width="170px" height="170px" alt="esperma" class="white"/>
 				</div>
 			</div>
@@ -71,12 +79,12 @@
 				<p class="contenido"><strong>Respuesta r&aacute;pida y eficiente</strong> para un mercado en constante cambio, adapt&aacute;ndonos a tus necesidades y superando tus espectativas con cada entrega.</p>
 			</div>
 			<div class="caja c5">
-				<div class="content">
+				<div class="content img-cajas">
 					<img src="img/Fotos_iconos/chincheta.svg" width="170px" height="170px" alt="chincheta" class="white"/>
 				</div>
 			</div>
 			<div class="caja c6">
-				<div class="content">
+				<div class="content img-cajas">
 					<img src="img/Fotos_iconos/jarro-de-cerveza.svg" width="170px" height="170px" alt="jarro de cerveza" class="white"/>
 				</div>
 			</div>
@@ -95,7 +103,7 @@
 			<div class="contenedor-humo">
 				<p class="centered">VENDEMOS HUMO CON MUCHA PASI&Oacute;N</p>
 			</div>
-			<img src="img/Fotos_iconos/impactacom_Waiter_preparing_a_cocktail_from_which_a_lot_of_smok_39cc6042-3b3e-4264-91e6-3ddbb9f91152.png" alt="humo" class="sobreposition">
+			<img src="img/Fotos_iconos/impactacom_Waiter_preparing_a_cocktail_from_which_a_lot_of_smok_39cc6042-3b3e-4264-91e6-3ddbb9f91152.png" alt="humo" class="sobreposition" id="humo">
 		</div>
 	<!-- eslogan -->
 	<!-- partner -->
@@ -191,7 +199,7 @@
 				</div>
 
 				<input type="checkbox"><span class="texto-privacidad">He le&iacute;do el <strong>aviso legal</strong></span><!--<br>--><span class="texto-privacidad"> y la <strong>pol&iacute;tica de privacidad</strong></span>
-				<input type="button" value="ENVIAR MENSAJE" class="btn_enviar" name="enviar" id="enviar">
+				<input type="button" value="ENVIAR MENSAJE" class="btn_enviar" name="enviar" id="enviar" onClick="mensaje()">
 			</div>
 		</div>	
 	<!-- contacto -->	
